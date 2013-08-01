@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
     $(LOCAL_PATH)/proprietary/system/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem
 
-# FM Radio
+# Bluetooth
 #PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/proprietary/system/bin/btld:system/bin/btld
 
@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
     $(LOCAL_PATH)/proprietary/system/lib/libste_omxil-interface.so:system/lib/libste_omxil-interface.so
 
 # DRM
